@@ -1,1 +1,9 @@
 ex06
+
+?/20
+
+main devrait être dans bin
+fonctions réutilisables doivent être lib
+
+attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
+

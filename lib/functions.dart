@@ -1,7 +1,7 @@
 part of ex06; 
 
 main() { 
-  for (var x = 0; x <=4; x++){ 
+  for (var x = 0; x <=4; x++) { 
     ex06_1(param['q1'][x]); 
   } 
   ex06_2(param['q2'][0], param['q2'][1]); 

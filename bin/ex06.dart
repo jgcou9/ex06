@@ -2,10 +2,10 @@ library ex06;
  
 part '../lib/functions.dart'; 
   
-ex06_1(var word){ 
+ex06_1(var word) { 
   print('Question 1 :'); 
-  for (var i = 0; i < word.length/2; i++){ 
-    if(word[i] != word[word.length-(1+i)]){ 
+  for (var i = 0; i < word.length/2; i++) { 
+    if (word[i] != word[word.length-(1+i)]) { 
       print('${word} is not a palindrome'); 
       return; 
     } 
@@ -13,14 +13,13 @@ ex06_1(var word){
   print('${word} is a palindrome'); 
 } 
 
-ex06_2(var date1, var date2){ 
+ex06_2(var date1, var date2) { 
   print('Question 2 :'); 
   Duration difference = date1.difference(date2); 
   print('The difference in days between those dates is ${difference.inDays}'); 
 } 
  
-ex06_3(var numGrade) 
-{ 
+ex06_3(var numGrade) { 
   print('Question 3 :'); 
   var letterGrade = ""; 
   if (numGrade >= 95) letterGrade += "A+"; 
@@ -38,13 +37,12 @@ ex06_3(var numGrade)
   print('${numGrade} in grade is ${letterGrade}'); 
 } 
  
-ex06_4(var listOfNames){ 
+ex06_4(var listOfNames) { 
   print('Question 4 :'); 
   var nameLength8P = []; 
   var nameLength8 = []; 
   var nameLength8M = []; 
- 
-  for(var x in listOfNames){ 
+  for(var x in listOfNames) { 
     if      (x.length > 8) nameLength8P.add(x); 
     else if (x.length < 8) nameLength8M.add(x); 
     else                   nameLength8.add(x); 
@@ -54,14 +52,13 @@ ex06_4(var listOfNames){
   print('Names that are 8 letters long : ${nameLength8}'); 
 } 
 
-ex06_5(var teams, var players){ 
-   print('Question 5 :'); 
-   var map = new Map(); 
-   
-   for(var i = 0; i < teams.length; i++){ 
-     map[teams[i]] = players[i]; 
-   } 
-   for(var x in map.keys){ 
+ex06_5(var teams, var players) { 
+  print('Question 5 :'); 
+  var map = new Map(); 
+  for(var i = 0; i < teams.length; i++){ 
+    map[teams[i]] = players[i]; 
+  } 
+  for(var x in map.keys){ 
     print('${x} : ${map[x]}'); 
-   } 
+  } 
 }

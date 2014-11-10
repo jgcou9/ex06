@@ -1,9 +1,40 @@
 ex06
 
+10/20
+
+-4
+la bibliothèque (library) doit être dans le dossier lib
+
+-2
+main devrait être dans bin
+fonctions réutilisables doivent être dans le dossier lib
+
+-1 
+se il vous plaît, utiliser les types pour des paramètres de fonctions
+ex06_2(var date1, var date2) {
+
+6.2
+Question 2 :
+The difference in days between those dates is 8077
+-1
+Quelles sont les deux dates?
+
+6.4 
+se il vous plaît afficher la liste d'entrée
+
+6.5
+-1
+Prepare two lists, one with the names of players and their CLUBS
+-1
+se il vous plaît ne pas utiliser les positions d'éléments de la liste 
+pour faire une correspondance entre les clubs et les joueurs
+
+---
+
 ?/20
 
 main devrait être dans bin
-fonctions réutilisables doivent être lib
+fonctions réutilisables doivent être dans le dossier lib
 
 attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
 
